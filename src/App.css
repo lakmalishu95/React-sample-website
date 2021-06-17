@@ -1,0 +1,72 @@
+.App {
+    width: 100vw;
+    height: 100vw;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* hero section style */
+
+h1{
+    text-align: center;
+    font-size: 25vw;
+}
+
+p{
+    text-align: center;
+}
+
+.inputemail{
+    color: #4CAF50;
+    padding-left: 50%;
+
+  
+}
+
+
+.hero {
+    height: 250px;
+    background-color: #4CAF50;
+}
+
+.formcss
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item1{
+    color: rgb(56, 56, 56);
+        padding-left: 50px;
+        padding-right: 50px;
+
+}
+
+@media only screen and (max-width: 650px) {
+    .item1 h2,h6 {
+   font-size: 1vw;
+   color: #4CAF50;
+   font-size:15px ;
+   max-width: 100%;
+
+
+}
+}
+@media only screen and (max-width: 650px) {
+    .item2 {
+   display: none;
+}
+}
